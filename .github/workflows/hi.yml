@@ -3,7 +3,6 @@ name: hello
 on:
   push: branches:[main]
 jobs: null
-greet:
   runs-on: ubuntu-latest
   steps:
     - name: say helloo to my users
