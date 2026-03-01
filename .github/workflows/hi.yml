@@ -1,8 +1,23 @@
----
-name: hello
-on: push
-jobs: 
-  runs-on: ubuntu-latest
-  steps:
-    - name: say helloo to my users
-      run: echo "Hello Brinda!"
+name: Hello
+
+on:
+
+push:
+
+branches: [ main ]
+
+jobs:
+
+greet:
+
+runs-on: ubuntu-latest
+
+steps:
+
+- name: Say hello to users
+
+run: echo "Hello Brinda"
+
+- name: Say hello to username
+
+run: echo "Hello $USER"
