@@ -18,6 +18,3 @@ steps:
 
 run: echo "Hello Brinda"
 
-- name: Say hello to username
-
-run: echo "Hello $USER"
